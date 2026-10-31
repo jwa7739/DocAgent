@@ -1,6 +1,6 @@
 # DocAgent - RAG Chatbot with Tool Routing
 
-Upload PDFs and ask questions about them. A keyword-routed agent retrieves passages from a ChromaDB vector store and answers strictly from the document; questions asking for *latest / recent / current* information are routed to web search instead.
+Upload PDFs and ask questions about them. A keyword-routed agent retrieves passages from a ChromaDB vector store and answers strictly from the document; Questions asking for news or the web (for example, “search the web for...”) are routed to web search instead.
 
 ## Features
 - PDF ingestion: load, chunk (800 chars, 150 overlap), embed with Gemini, store in ChromaDB
